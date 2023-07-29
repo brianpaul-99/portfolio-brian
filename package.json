@@ -1,7 +1,7 @@
 {
-  "name": "Portfolio Website",
+  "name": "PortfolioWebsite",
   "version": "1.0.0",
-  "description": "Brian Portfolio",
+  "description": "BrianPortfolio",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
