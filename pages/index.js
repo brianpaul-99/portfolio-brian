@@ -18,8 +18,6 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
-import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -104,10 +102,6 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Bio
         </Heading>
-        <BioSection>
-          <BioYear>1999</BioYear>
-          Born in Kalmunai, SriLanka.
-        </BioSection>
         <BioSection>
           <BioYear>2020</BioYear>
           Completed a degree in Bachelor of Science for Computer Science at

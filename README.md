@@ -1,6 +1,8 @@
 # Brian's Portfolio
 
-Built using the inspiration of other portfolio websites and combined together.
+This website was built to showcase some of my projects and works I have contributed.
+
+link: https://portfolio-brian.vercel.app/
 
 # Tools
 

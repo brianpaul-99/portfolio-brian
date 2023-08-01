@@ -7,10 +7,6 @@ import thumbSpotify from '../public/images/projects/spotify_thumb.png'
 import thumbAmazon from '../public/images/projects/amazon_thumb.png'
 import thumbAT from '../public/images/projects/a&t_thumb.png'
 import thumbBakery from '../public/images/projects/bakery_thumb.png'
-import thumbStyly from '../public/images/works/styly_eyecatch.png'
-import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
-import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
-import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -26,7 +22,7 @@ const Works = () => (
             title="spotify clone"
             thumbnail={thumbSpotify}
           >
-            A simple spotify clone integrated with the Spotify API
+            A basic spotify clone integrated with the Spotify API
           </WorkGridItem>
         </Section>
         <Section>
