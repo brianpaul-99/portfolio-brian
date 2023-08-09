@@ -18,15 +18,15 @@ const Work = () => (
   <Layout title="amazonClone">
     <Container>
       <Title>
-        amazon clone<Badge>2022</Badge>
+        Amazon Clone<Badge>2022</Badge>
       </Title>
       <P>
         This is an amazon clone that has user authentication. Items on the
         homepage can be added to the shopping cart and they can be removed from
         the cart in shopping cart UI. A fake checkout functionality is also
         added using Stripe API where user can enter card number (for this
-        simulation typing 4 and 2 simultaneously until the end of the card
-        number will allow for valid checkout).
+        simulation typing 4 and 2 simultaneously for the card credentials will
+        allow for valid checkout).
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -37,8 +37,10 @@ const Work = () => (
           </Link>
         </ListItem>
         <ListItem>
-          <Meta>Stack</Meta>
-          <span>React.js, Node.js, Firebase</span>
+          <Meta>Tools</Meta>
+          <span>
+            React.js, Node.js, Firebase, Stripe API, Styled Components
+          </span>
         </ListItem>
       </List>
 

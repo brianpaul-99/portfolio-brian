@@ -15,18 +15,18 @@ const Work = () => (
   <Layout title="bakery">
     <Container>
       <Title>
-        bakery <Badge>2023</Badge>
+        Bakery <Badge>2023</Badge>
       </Title>
       <P>
         Local bakery that needed some added features on their catering section
         of their website. Added multiple seemless carousels to showcase vaiours
-        informations and reviews. Added dropdown menus for the cake description
-        to allow users to easily view different options.
+        informations and customer reviews. Added dropdown menus for the cake
+        description to allow users to easily view different options.
       </P>
 
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Stack</Meta>
+          <Meta>Tools</Meta>
           <span>React.js</span>
         </ListItem>
         <ListItem>

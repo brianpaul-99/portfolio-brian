@@ -13,13 +13,19 @@ import {
 } from '@chakra-ui/react'
 import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
-import { BioSection, BioYear } from '../components/bio'
+import {
+  BioContainer,
+  BioSection,
+  BioYear,
+  BoxSection,
+  LineSection,
+  Separator
+} from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import Image from 'next/image'
-
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
 })
@@ -35,7 +41,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m a Software Engineer based in Toronto!
+        Hello, welcome to my portfolio website!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -77,12 +83,12 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Brian is a freelance and a full-stack developer based in Toronto with
-          a passion for building digital services/stuff he wants. He has a knack
+          I am a freelance and a full-stack developer based in Toronto with a
+          passion for building digital services/stuff he wants. I have a knack
           for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out at the gym and enjoying nature. Currently, he is
-          enthusiastically looking to join a company to bring his skills to and
+          way to solving real-life problems with code. When not online, I love
+          hanging out at the gym and enjoying nature. Currently, I am
+          enthusiastically looking to join a company to bring my skills to and
           grow alongside it.
         </Paragraph>
         <Box align="center" my={4}>
@@ -102,25 +108,31 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Bio
         </Heading>
-        <BioSection>
-          <BioYear>2020</BioYear>
-          Completed a degree in Bachelor of Science for Computer Science at
-          Toronto Metropolitan University (Ryerson)
-        </BioSection>
-        <BioSection>
-          <BioYear>2020 - 2022</BioYear>
-          Worked at LitKit! A Toronto based startup developing a nightlife POS
-          platform
-        </BioSection>
-        <BioSection>
-          <BioYear>2022</BioYear>
-          Worked at Amazon as a SDE I
-        </BioSection>
-        <BioSection>
-          <BioYear>2023</BioYear>
-          Worked as a freelancer creating digital deliverables for small
-          bussiness and individual clients
-        </BioSection>
+        <BioContainer>
+          <LineSection />
+
+          <BoxSection>
+            <BioSection>
+              <BioYear>2021</BioYear>
+              Completed a degree in Bachelor of Science for Computer Science at
+              Toronto Metropolitan University (Ryerson)
+            </BioSection>
+            <BioSection>
+              <BioYear>2020 - 2022</BioYear>
+              Worked at LitKit! A Toronto based startup developing a nightlife
+              POS platform
+            </BioSection>
+            <BioSection>
+              <BioYear>2022</BioYear>
+              Worked at Amazon as a SDE I
+            </BioSection>
+            <BioSection>
+              <BioYear>2023</BioYear>
+              Worked as a freelancer creating digital deliverables for small
+              bussiness and individual clients
+            </BioSection>
+          </BoxSection>
+        </BioContainer>
       </Section>
 
       <Section delay={0.3}>

@@ -13,7 +13,7 @@ const Work = () => (
       <P>
         This is a website for a job recruitment agency that needed redesigning
         and small feature chnages for their landing and contact page. I used
-        their existing codebase and added carousel features as well and addded
+        their existing codebase and added carousel features as well as addded
         the footer section to their website. Furthermore, I redesigned their
         contact page to have a more responsive structure for mobile.
       </P>
@@ -28,8 +28,8 @@ const Work = () => (
           </span>
         </ListItem>
         <ListItem>
-          <Meta>Stack</Meta>
-          <span>React.js</span>
+          <Meta>Tools</Meta>
+          <span>React.js, Wordpress</span>
         </ListItem>
       </List>
 

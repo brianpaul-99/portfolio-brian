@@ -15,7 +15,7 @@ const Work = () => (
   <Layout title="SpotifyClone">
     <Container>
       <Title>
-        spotify clone <Badge>2022</Badge>
+        Spotify Clone <Badge>2022</Badge>
       </Title>
       <P>
         A simple Spotify clone that uses the Spotify API to authenticate real
@@ -30,8 +30,8 @@ const Work = () => (
           </Link>
         </ListItem>
         <ListItem>
-          <Meta>Stack</Meta>
-          <span> React.js, Firebase</span>
+          <Meta>Tools</Meta>
+          <span> React.js, Firebase, Spotify API, Styled Components</span>
         </ListItem>
       </List>
 

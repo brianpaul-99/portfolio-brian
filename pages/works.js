@@ -14,53 +14,6 @@ const Works = () => (
       <Heading as="h3" fontSize={20} mb={4}>
         Works
       </Heading>
-
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section>
-          <WorkGridItem
-            id="spotifyClone"
-            title="spotify clone"
-            thumbnail={thumbSpotify}
-          >
-            A basic spotify clone integrated with the Spotify API
-          </WorkGridItem>
-        </Section>
-        <Section>
-          <WorkGridItem
-            id="amazonClone"
-            title="amazon clone"
-            thumbnail={thumbAmazon}
-          >
-            Amazon clone with shopping cart functionality
-          </WorkGridItem>
-        </Section>
-
-        {/* <Section delay={0.1}>
-          <WorkGridItem
-            id="fourpainters"
-            title="The four painters"
-            thumbnail={thumbFourPainters}
-          >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
-          </WorkGridItem>
-        </Section> */}
-      </SimpleGrid>
-
-      <Section delay={0.2}>
-        <Divider my={6} />
-
-        <Heading as="h3" fontSize={20} mb={4}>
-          Collaborations
-        </Heading>
-      </Section>
-
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem
@@ -75,10 +28,38 @@ const Works = () => (
           <WorkGridItem
             id="bakery"
             thumbnail={thumbBakery}
-            title="francesca bakery"
+            title="Francesca Bakery"
           >
             Local bakery selling an assortment of baked goods and catering
             services
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
+
+      <Section delay={0.2}>
+        <Divider my={6} />
+
+        <Heading as="h3" fontSize={20} mb={4}>
+          Projects
+        </Heading>
+      </Section>
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <WorkGridItem
+            id="spotifyClone"
+            title="Spotify Clone"
+            thumbnail={thumbSpotify}
+          >
+            A basic spotify clone integrated with the Spotify API
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="amazonClone"
+            title="Amazon Clone"
+            thumbnail={thumbAmazon}
+          >
+            Amazon clone with shopping cart functionality
           </WorkGridItem>
         </Section>
       </SimpleGrid>
