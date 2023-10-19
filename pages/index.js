@@ -114,22 +114,32 @@ const Home = () => (
           <BoxSection>
             <BioSection>
               <BioYear>2021</BioYear>
-              Completed a degree in Bachelor of Science for Computer Science at
-              Toronto Metropolitan University (Ryerson)
+              <br /> Completed a degree in Bachelor of Science for Computer
+              Science at Toronto Metropolitan University (Ryerson)
             </BioSection>
             <BioSection>
-              <BioYear>2020 - 2022</BioYear>
-              Worked at LitKit! A Toronto based startup developing a nightlife
-              POS platform
+              <BioYear>2021 - 2022</BioYear>
+              <br />
+              Worked at LitKit as a Full-stack Software Engineer,{' '}
+              <i>a Toronto based startup developing a nightlife POS platform</i>
             </BioSection>
             <BioSection>
               <BioYear>2022</BioYear>
-              Worked at Amazon as a SDE I
+              <br />
+              Worked at Amazon as a Software Development Engineer I,{' '}
+              <i>
+                where I worked as part of the Contra COGS Team that dealt with
+                vendors on Amazon
+              </i>
             </BioSection>
             <BioSection>
               <BioYear>2023</BioYear>
-              Worked as a freelancer creating digital deliverables for small
-              bussiness and individual clients
+              <br />
+              Worked at A&T Human Resources as a Software Developer,{' '}
+              <i>
+                where I contributed to their existing servers and client
+                acquisition platforms
+              </i>
             </BioSection>
           </BoxSection>
         </BioContainer>
