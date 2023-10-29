@@ -7,6 +7,7 @@ import thumbSpotify from '../public/images/projects/spotify_thumb.png'
 import thumbAmazon from '../public/images/projects/amazon_thumb.png'
 import thumbAT from '../public/images/projects/a&t_thumb.png'
 import thumbBakery from '../public/images/projects/bakery_thumb.png'
+import thumbSnapchat from '../public/images/projects/snap_thumb.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -60,6 +61,15 @@ const Works = () => (
             thumbnail={thumbAmazon}
           >
             Amazon clone with shopping cart functionality
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="snapchatClone"
+            title="Snapchat Clone"
+            thumbnail={thumbSnapchat}
+          >
+            A snapchat app styled clone with camera function
           </WorkGridItem>
         </Section>
       </SimpleGrid>
